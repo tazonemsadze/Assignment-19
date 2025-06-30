@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+/* ----------- */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tasks__container {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 50px;
+}
+
+.task__title {
+  margin-block: 50px;
+}
+
+.task {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+
+  width: 400px;
+  aspect-ratio: 1/1;
+}
+
+.destruct__btn {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+  background-size: 200% auto;
+
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(238, 90, 36, 0.4);
+  text-transform: uppercase;
+}
+
+.destruct__btn:hover {
+  background-position: right center;
+}
+
+.task__two--img {
+  border-radius: 10px;
+}

@@ -86,3 +86,59 @@ body {
 .task__two--img {
   border-radius: 10px;
 }
+
+.characters__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  background-color: rebeccapurple;
+  padding: 20px;
+}
+
+.characters__list--card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.character__card--info {
+  display: grid;
+  gap: 20px;
+}
+
+.character__name {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.character__house {
+  font-size: 18px;
+}
+
+.no__characters {
+  text-align: center;
+  color: white;
+}
+
+.character__img {
+  max-height: 200px;
+}
+
+.character__card--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.character__card--btns button {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
